@@ -1,0 +1,51 @@
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+#datetime-picker {
+  font-size: 2.4rem;
+  padding: 1rem;
+  margin: 2rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.timer-btn {
+  font-size: 2.4rem;
+  padding: 1rem 2rem;
+  margin: 2rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Стилі для таймера */
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.value {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.label {
+  font-size: 2rem;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
